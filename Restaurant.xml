@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+  <users>
+    <user>
+      <name>Adam Smith</name>
+      <role>Manager</role>
+      <username>adam</username>
+      <password>adam_manager</password>
+    </user>
+    <user>
+      <name>John Doe</name>
+      <role>Client</role>
+      <username>john</username>
+      <password>john_doe</password>
+    </user>
+    <user>
+      <name>Brian Johnes</name>
+      <role>Client</role>
+      <username>brian</username>
+      <password>mdir@admj%ar5qX2</password>
+    </user>
+    <user>
+      <name>George Robben</name>
+      <role>Waiter</role>
+      <username>george</username>
+      <password>k6987_#LpQ</password>
+    </user>
+    <user>
+      <name>Tomas Hobbens</name>
+      <role>Cooker</role>
+      <username>hobbens_tom</username>
+      <password>cooker_pass</password>
+    </user>
+    <user>
+      <name>Aly Zaitoon</name>
+      <role>Client</role>
+      <username>alymohamed</username>
+      <password>zaitoon2000</password>
+    </user>
+  </users>
+  <tables>
+    <table>
+      <number>5</number>
+      <number_of_seats>4</number_of_seats>
+      <smoking>true</smoking>
+    </table>
+    <table>
+      <number>7</number>
+      <number_of_seats>6</number_of_seats>
+      <smoking>true</smoking>
+    </table>
+    <table>
+      <number>6</number>
+      <number_of_seats>7</number_of_seats>
+      <smoking>true</smoking>
+    </table>
+    <table>
+      <number>2</number>
+      <number_of_seats>12</number_of_seats>
+      <smoking>false</smoking>
+    </table>
+    <table>
+      <number>3</number>
+      <number_of_seats>12</number_of_seats>
+      <smoking>true</smoking>
+    </table>
+    <table>
+      <number>4</number>
+      <number_of_seats>4</number_of_seats>
+      <smoking>false</smoking>
+    </table>
+    <table>
+      <number>1</number>
+      <number_of_seats>5</number_of_seats>
+      <smoking>false</smoking>
+    </table>
+  </tables>
+  <dishes>
+    <dish>
+      <name>Grilled Chicken</name>
+      <price>75.0</price>
+      <type>main_course</type>
+    </dish>
+    <dish>
+      <name>Greek Salade</name>
+      <price>35.0</price>
+      <type>appetizer</type>
+    </dish>
+    <dish>
+      <name>Fried Potatos</name>
+      <price>30.0</price>
+      <type>appetizer</type>
+    </dish>
+    <dish>
+      <name>Apple Pie</name>
+      <price>50.0</price>
+      <type>desert</type>
+    </dish>
+    <dish>
+      <name>Molten Cake</name>
+      <price>60.0</price>
+      <type>desert</type>
+    </dish>
+    <dish>
+      <name>Mushroom Soup</name>
+      <price>60.0</price>
+      <type>main_course</type>
+    </dish>
+    <dish>
+      <name>Beef Steak</name>
+      <price>80.0</price>
+      <type>main_course</type>
+    </dish>
+    <dish>
+      <name>Chicken Alfredo</name>
+      <price>40.0</price>
+      <type>main_course</type>
+    </dish>
+    <dish>
+      <name>Chocolate Cake</name>
+      <price>30.0</price>
+      <type>desert</type>
+    </dish>
+  </dishes>
+  <orders>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>4</tablenumber>
+      <Total_price>1133.0</Total_price>
+      <date>2020-04-02</date>
+      <time>23:55:58.434</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Beef Steak</name>
+        <price>80.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>2</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>4</tablenumber>
+      <Total_price>1271.0</Total_price>
+      <date>2020-04-03</date>
+      <time>00:01:13.748</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Beef Steak</name>
+        <price>80.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>2</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>3</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>Brian Johnes</name>
+      <ordernumber>2</ordernumber>
+      <tablenumber>1</tablenumber>
+      <Total_price>309.0</Total_price>
+      <date>2020-04-03</date>
+      <time>00:01:13.748</time>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>2</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>3</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>4</tablenumber>
+      <Total_price>143.5</Total_price>
+      <date>2020-04-03</date>
+      <time>00:04:49.239</time>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>2</tablenumber>
+      <Total_price>188.25</Total_price>
+      <date>2020-04-03</date>
+      <time>01:25:37.033</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>5</tablenumber>
+      <Total_price>393.75</Total_price>
+      <date>2020-04-03</date>
+      <time>20:35:03.601</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>3</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>2</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>Aly Zaitoon</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>7</tablenumber>
+      <Total_price>450.75</Total_price>
+      <date>2020-04-03</date>
+      <time>23:49:00.111</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Beef Steak</name>
+        <price>80.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Apple Pie</name>
+        <price>50.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>4</tablenumber>
+      <Total_price>86.25</Total_price>
+      <date>2020-04-04</date>
+      <time>00:23:32.943</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>5</tablenumber>
+      <Total_price>124.75</Total_price>
+      <date>2020-04-04</date>
+      <time>01:54:14.970</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>Brian Johnes</name>
+      <ordernumber>2</ordernumber>
+      <tablenumber>1</tablenumber>
+      <Total_price>276.0</Total_price>
+      <date>2020-04-04</date>
+      <time>01:55:31.874</time>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>2</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>2</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>1</tablenumber>
+      <Total_price>124.75</Total_price>
+      <date>2020-04-04</date>
+      <time>19:04:50.823</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>4</tablenumber>
+      <Total_price>382.5</Total_price>
+      <date>2020-04-04</date>
+      <time>19:09:21.983</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>2</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>2</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>2</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>2</ordernumber>
+      <tablenumber>3</tablenumber>
+      <Total_price>460.5</Total_price>
+      <date>2020-04-04</date>
+      <time>21:42:32.005</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>4</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>3</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>3</ordernumber>
+      <tablenumber>5</tablenumber>
+      <Total_price>155.25</Total_price>
+      <date>2020-04-04</date>
+      <time>21:43:32.485</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>4</ordernumber>
+      <tablenumber>7</tablenumber>
+      <Total_price>450.75</Total_price>
+      <date>2020-04-04</date>
+      <time>22:43:38.884</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Beef Steak</name>
+        <price>80.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Apple Pie</name>
+        <price>50.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Molten Cake</name>
+        <price>60.0</price>
+        <type>desert</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>5</ordernumber>
+      <tablenumber>7</tablenumber>
+      <Total_price>193.75</Total_price>
+      <date>2020-04-04</date>
+      <time>22:52:27.420</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>6</ordernumber>
+      <tablenumber>6</tablenumber>
+      <Total_price>247.25</Total_price>
+      <date>2020-04-04</date>
+      <time>22:54:12.459</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Mushroom Soup</name>
+        <price>60.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Beef Steak</name>
+        <price>80.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>7</ordernumber>
+      <tablenumber>5</tablenumber>
+      <Total_price>157.75</Total_price>
+      <date>2020-04-04</date>
+      <time>22:55:28.971</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>1</ordernumber>
+      <tablenumber>4</tablenumber>
+      <Total_price>71.5</Total_price>
+      <date>2020-04-05</date>
+      <time>21:38:16.511</time>
+      <dish>
+        <name>Greek Salade</name>
+        <price>35.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+      <dish>
+        <name>Fried Potatos</name>
+        <price>30.0</price>
+        <type>appetizer</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+    <order>
+      <name>John Doe</name>
+      <ordernumber>2</ordernumber>
+      <tablenumber>1</tablenumber>
+      <Total_price>86.25</Total_price>
+      <date>2020-04-05</date>
+      <time>21:39:50.847</time>
+      <dish>
+        <name>Grilled Chicken</name>
+        <price>75.0</price>
+        <type>main_course</type>
+        <quantity>1</quantity>
+      </dish>
+    </order>
+  </orders>
+</restaurant>
