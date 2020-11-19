@@ -1,9 +1,0 @@
-Aly and Omar took the backend pasrt which is the codes, they did the design patterns most of them expect the factory design pattern salma did it and Mahinour made the strategy design pattern part and the levels
-Mahinour and salma did the animation part, omar and aly did the save part and the timer part in the Game,Background images and cursor made by slma and Mahinour
-Assumptions:
-1-New game reset the game and resturns every thing to zero.
-2-Continue , continue on last game .
-3-if lost and continue the time is reseted and the saved score.
-4-game is saved every 30s from the timer and if pressed exit the last state is saved and if lost last state is saved too.
-5-we made the code on inteliij ultimate.
-
